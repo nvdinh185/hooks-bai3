@@ -1,143 +1,57 @@
 export default function App() {
   return (
-    <div>
-      <a href="#" title="header.jpg">
-        <img src="/images/header.jpg" alt="header.jpg" />
-      </a>
+    <div className="wrapper">
+      <h1>Trang tin VinaEnter Edu</h1>
       <ul>
         <li>
-          <a href="#" title="Trang chủ">
-            Trang chủ
+          <a href="#">
+            <img src="images/h1.jpg" alt="h1.jpg" />
           </a>
+          <div className="khoiphai">
+            <h2>
+              <a href="#">Cách phối đồ đi hẹn hò 8/3 đẹp như Quỳnh Anh Shyn</a>
+            </h2>
+            <p>
+              8/3 sắp đến rồi, những gợi ý mặc đẹp dưới đây sẽ giúp bạn chọn được bộ
+              đồ ưng ý. Cùng học Quỳnh Anh Shyn một vài cách phối đồ cực hay ho để
+              bạn đi hẹn hò 8/3 nhé!
+            </p>
+          </div>
+          <div className="clr" />
         </li>
         <li>
-          <a href="#" title="Tin tức">
-            Tin tức
+          <a href="#">
+            <img src="images/h2.jpg" alt="h2.jpg" />
           </a>
+          <div className="khoiphai">
+            <h2>
+              <a href="#">Diện đồ đôi cho teen đi hẹn hò ngày 8/3</a>
+            </h2>
+            <p>
+              Những cặp đôi yêu nhau đã có ý tưởng nên mặc gì trong ngày 8/3 chưa?
+              Những bộ đồ đôi vừa đẹp vừa thoải mái chắc chắn sẽ là gợi ý ăn mặc cho
+              các bạn trẻ. Dưới đây là những bộ đồ đôi đẹp để teen tham ...
+            </p>
+          </div>
+          <div className="clr" />
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/h3.jpg" alt="h3.jpg" />
+          </a>
+          <div className="khoiphai">
+            <h2>
+              <a href="#">Hướng dẫn chọn trang phục cho teengirl ngày 8/3</a>
+            </h2>
+            <p>
+              Các teen girl nhà mình hẳn đang rất hào hứng chọn những bộ đồ thật đẹp
+              để đi chơi 8/3. Những gợi ý ăn mặc dưới đây sẽ giúp các nàng có những
+              set đồ thật đẹp để diện trong ngày 8.3 nhé!
+            </p>
+          </div>
+          <div className="clr" />
         </li>
       </ul>
-      <div>
-        <h3>Danh mục tin</h3>
-        <ul>
-          <li>
-            <a href="#" title="Thời sự">
-              Thời sự
-            </a>
-          </li>
-          <li>
-            <a href="#" title="Góc nhìn">
-              Góc nhìn
-            </a>
-          </li>
-          <li>
-            <a href="#" title="Thế giới">
-              Thế giới
-            </a>
-          </li>
-          <li>
-            <a href="#" title="Kinh doanh">
-              Kinh doanh
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2>Tin tức</h2>
-        <ul>
-          <li>
-            <h4>
-              <a
-                href="#"
-                title="Trung Quốc điều thêm 17 tàu đến khu vực giàn khoan"
-              >
-                Trung Quốc điều thêm 17 tàu đến khu vực giàn khoan
-              </a>
-            </h4>
-            <a href="#" title="">
-              <img src="/images/h1.jpg" alt="h1.jpg" />
-            </a>
-            <p>
-              Để bảo vệ giàn khoan, Trung Quốc đã điều thêm 17 tàu các loại so với
-              hôm trước, sẵn sàng đâm va vào tàu Việt Nam
-            </p>
-          </li>
-          <li>
-            <h4>
-              <a href="#" title="Trọng tài - Vết đen của kỳ World Cup sôi động">
-                Trọng tài - Vết đen của kỳ World Cup sôi động
-              </a>
-            </h4>
-            <a href="#" title="">
-              <img src="/images/h2.jpg" alt="h2.jpg" />
-            </a>
-            <p>
-              World Cup 2014 chưa đi hết lượt đấu vòng bảng nhưng các trọng tài đẳng
-              cấp FIFA đã có tới 4 trận bị chỉ trích dữ dội
-            </p>
-          </li>
-          <li>
-            <h4>
-              <a href="#" title="Những mỹ nhân Việt duyên dáng ở tuổi tứ tuần">
-                Những mỹ nhân Việt duyên dáng ở tuổi tứ tuần
-              </a>
-            </h4>
-            <a href="#" title="">
-              <img src="/images/h4.jpg" alt="h4.jpg" />
-            </a>
-            <p>
-              Việt Trinh, Thu Hà, Hồng Nhung, Thanh Lam... vẫn giữ được nét thanh
-              xuân, tươi trẻ và cuốn hút theo thời gian nhờ phong cách làm đẹp tinh
-              tế.
-            </p>
-          </li>
-          <li>
-            <h4>
-              <a
-                href="#"
-                title="Chuyển nhượng 17/6: Arsenal mua Balotelli, tráo hàng Man Utd"
-              >
-                Chuyển nhượng 17/6: Arsenal mua Balotelli, tráo hàng Man Utd
-              </a>
-            </h4>
-            <a href="#" title="">
-              <img src="/images/h5.jpg" alt="h5.jpg" />
-            </a>
-            <p>
-              Đội bóng thành London đang đẩy mạnh việc tuyển những vị trí còn yếu
-              trong đội hình ở cả 3 tuyến
-            </p>
-          </li>
-          <li>
-            <h4>
-              <a href="#" title="Chuyên gia Anh tin chắc vị trí MH370 rơi">
-                Chuyên gia Anh tin chắc vị trí MH370 rơi
-              </a>
-            </h4>
-            <a href="#" title="">
-              <img src="/images/h1.jpg" alt="h1.jpg" />
-            </a>
-            <p>
-              Các chuyên gia thuộc công ty viễn thông Anh Inarat cho rằng họ xác
-              định được vị trí chiếc máy bay MH370 đã rơi xuống
-            </p>
-          </li>
-        </ul>
-      </div>
-      <a href="#" title="Trang 1">
-        Trang 1
-      </a>
-      |
-      <a href="#" title="Trang 2">
-        Trang 2
-      </a>
-      |
-      <a href="#" title="Trang 3">
-        Trang 3
-      </a>
-      |
-      <a href="#" title="Trang 4">
-        Trang 4
-      </a>
     </div>
   )
 }
